@@ -4,6 +4,10 @@ plugins {
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id "dev.flutter.flutter-gradle-plugin"
 }
+dependencies {
+    // ...
+    implementation 'com.yandex.android:mobileads-mediation:7.0.1.0'
+}
 
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file("local.properties")
